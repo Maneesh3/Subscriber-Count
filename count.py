@@ -4,7 +4,7 @@ import urllib
 #from urllib.request import urlopen, Request
 import time
 
-key = " {YOUR KEY HERE} "
+key = " {YOUR KEY HERE} "	# replace this key value with CoinMarketCap API key
 
 while True:
 	pew_url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&forUsername=PewDiePie&key=" + key
